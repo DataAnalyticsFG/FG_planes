@@ -11,7 +11,7 @@ def Calculo_EN(meses, md_t, d_n, md_n, p1_i, p1_o, p1_dif, p30_i, p30_o, p30_dif
         if((meses == 0) or (md_t < md_n) or ((d_n > 0) and (md_n == 0))):
             st.warning("Verifique los valores ingresados")
 
-        if(meses >= 4 or ((meses == 1) & (md_t >= 200000) & (d_n >= 6) & (md_n >= 125000)) or ((meses == 2) & (md_t >= 200000) & (d_n >= 6) & (md_n >= 150000)) or ((meses == 3) & (md_t >= 200000) & (d_n >= 6) & (md_n > 175000))):
+        if(meses >= 4 or ((meses == 1) & (md_t >= 200000) & (d_n >= 6) & (md_n >= 125000)) or ((meses == 2) & (md_t >= 200000) & (d_n >= 6) & (md_n >= 125000)) or ((meses == 3) & (md_t >= 200000) & (d_n >= 6) & (md_n > 125000))):
 
             if(md_t < 200000 or d_n < 6):
                 mult = 0
